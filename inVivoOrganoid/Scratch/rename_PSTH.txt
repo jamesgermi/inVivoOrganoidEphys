@@ -1,0 +1,11 @@
+/Users/jgermi/Documents/Perelman/MTR/ChenLab/Figures/inVivoOrganoid/FiguresForGrant/DG6/Evoked/Evoked/Recording_0008_*
+
+/Users/jgermi/Documents/Perelman/MTR/ChenLab/Figures/inVivoOrganoid/FiguresForGrant/DG6/Evoked/Not_Evoked/Recording_0008_*
+
+/Users/jgermi/Documents/Perelman/MTR/ChenLab/Figures/inVivoOrganoid/FiguresForGrant/DG6/Evoked/Artifact/Recording_0008_*
+
+/Users/jgermi/Documents/Perelman/MTR/ChenLab/Figures/inVivoOrganoid/FiguresForGrant/DG6/Evoked/Unsure/Recording_0008_*
+
+for f in *; do cp "$f" "/Users/jgermi/Documents/Perelman/MTR/ChenLab/Figures/inVivoOrganoid/FiguresForGrant/DG6/Evoked/Unsure/Recording_0022_0023_$f"; done
+
+for f in *; do mv "$f" "Recording_0002_0003_0004_0005_0006_0007_0008$f"; done
